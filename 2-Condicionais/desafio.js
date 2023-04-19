@@ -17,8 +17,8 @@ const litrosConsumidos = distancia / kmPorLitro;
 
 if (tipoCombustivel === 'Etanol'){
     const total = litrosConsumidos * precoEtanol;
-    console.log(total);
+    console.log(total.toFixed(2));
 } else {
     const total = litrosConsumidos * precoGasolina;   
-    console.log(total) 
+    console.log(total.toFixed(2)) 
 }
