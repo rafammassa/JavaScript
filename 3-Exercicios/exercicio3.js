@@ -25,4 +25,4 @@ const valorProduto = 100;
 const formaPagamento = 4;
 
 console.log("Valor a ser pago:");
-console.log(calcularValorFinal());
+console.log(calcularValorFinal(formaPagamento));
