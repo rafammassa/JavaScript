@@ -7,7 +7,7 @@ function incrementarJuros (valor, percentualJuros){
     return valor + valorAcrescimo
 }
 
-function main {
+function main () {
     quadrado (10); //chamando a função para verificar o quadrado de 10
     const quadradodeDez = quadrado(10);
     console.log(quadradodeDez);
