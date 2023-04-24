@@ -9,18 +9,20 @@ Código Condição de pagamento:
 3 - Em duas vezes, preço normal de etiqueta sem juros;
 4 - Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
 */
+function calcularValorFinal(formaPagamento){
+    if (formaPagamento === 1){
+        return valorProduto - (valorProduto * 0.1);
+    } else if (formaPagamento === 2){
+        return valorProduto - (valorProduto * 0.15);
+    } else if (formaPagamento === 3){
+        return valorProduto;
+    } else {
+        return valorProduto + (valorProduto * 0.1);
+    }
+}
 
 const valorProduto = 100;
 const formaPagamento = 4;
 
 console.log("Valor a ser pago:");
-
-if (formaPagamento === 1){
-    console.log(valorProduto - (valorProduto * 0.1));
-} else if (formaPagamento === 2){
-    console.log(valorProduto - (valorProduto * 0.15));
-} else if (formaPagamento === 3){
-    console.log(valorProduto);
-} else {
-    console.log(valorProduto + (valorProduto * 0.1));
-}
+console.log(calcularValorFinal());
