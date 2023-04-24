@@ -25,10 +25,9 @@ function classificarImc (imc){
     }
 }
 
-function main(){
+//Main
+(function (){
 const imc = calcularImc(65, 1.55);
 console.log(imc.toFixed(2));
 console.log(classificarImc(imc));
-}
-
-main();
+})();
