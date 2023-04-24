@@ -1,4 +1,4 @@
-const rafa = {
+const rafa = { //objeto
     nome: "Rafaella Monteiro Massa",
     idade: 24,
 
@@ -20,3 +20,9 @@ delete rafa.altura; //removendo
 console.log(rafa);
 
 rafa.descrever();
+
+//sintaxe mais dinâmica
+
+const atributo = 'idade';
+
+console.log(pessoa[atributo]);
