@@ -1,4 +1,4 @@
-/*const alunos = ['Pedro', 'Paulo', 'Fernando'];
+const alunos = ['Pedro', 'Paulo', 'Fernando'];
 
 console.log(alunos[0]);
 
@@ -23,7 +23,7 @@ console.log(professores);
 console.log(professores.shift()); //pega o primeiro item
 
 console.log(professores);
-*/
+
 
 const notas = [1, 8, 9, 7];
 
